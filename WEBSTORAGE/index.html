@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de compras</title>
+
+    <style>
+        body {
+            background: #f1f1f1;
+        }
+
+        .conteudo {
+            margin: 0 auto;
+            width: 680px;
+            background-color: #FFF;
+            border-radius: 6px;
+            padding: 25px;
+            outline: none;
+        }
+        .conteudo input{
+            border-radius: 6px;
+            border: 2px solid #383737;
+
+        }
+       
+    </style>    
+
+</head>
+<body>
+    
+    <div class="conteudo">
+        <div>
+            <input type="text" id="novoItem">
+            <button id="btnNovoItem">Adicionar</button>
+        </div>
+
+        <ul id="items">
+        </ul>
+
+    </div>
+
+    <script src="js/lista.js"></script>
+</body>
+</html>
