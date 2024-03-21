@@ -1,0 +1,55 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    line-height: 1.3em;
+}
+
+div {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 320px;
+    margin-top: 50px;
+}
+
+input {
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #b1adad;
+    width: calc(100% - 20px);
+    text-align: center;
+}
+
+button {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding: 12px;
+    width: 100%;
+    background-color: #86e749;
+    border: 1px solid #EEE;
+    border-radius: 10px;
+    color: #FFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.vitorias {
+    background-color: #86e749;
+    color: #FFF;
+    padding: 5px 10px;
+}
+
+.derrotas {
+    background-color: #e23b3b;
+    color: #FFF;
+    padding: 5px 10px;
+}
+
+.tentativasRestantes {
+    background-color: #564ac5;
+    color: #FFF;
+    padding: 5px 10px;
+}
